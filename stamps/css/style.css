@@ -1,0 +1,501 @@
+.total_wrapper {
+    position: relative;
+    background: #fdf6f0 url('../img/rep-body-bg.jpg') repeat;
+    width: 100%;
+    height: 100%;
+    padding-top: 25px;
+}
+
+header {
+    width: 950px;
+    position: relative;
+    margin: 25px auto;
+
+}
+
+.headimg {
+    padding-right: 148px;
+    margin-bottom: 62px;
+}
+
+.stamps_logo {
+    margin-top: 12px;
+    position: absolute;
+    z-index: 5;
+}
+
+.contact_on_logo {
+    display: block;
+    margin-bottom: 57px;
+}
+.phone, .order_now {
+    display: inline-block;
+}
+
+.phone {
+    margin-right:12px;
+    font:bold 25px Arial, sans-serif;
+    color: #0e3b67;
+}
+
+/*.order_now {
+    font:bold 28px 'Calibri', serif;
+    color: #54514c;
+    padding: 7px 19px;
+    background: linear-gradient(to top, #cc8c1e, #eab757, #f6c86f);
+    border: 1px solid #e9bd66;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}*/
+
+.order_now1 {
+    position: relative;
+    top: -8px;
+}
+
+.our_mail_header {
+    margin-left: 35px;
+}
+
+nav {
+    width: 100%;
+    height: 58px;
+    -webkit-box-shadow:  1px 1px 2px #baafaa;
+    -moz-box-shadow:  1px 1px 2px #baafaa;
+    box-shadow:  1px 1px 2px #baafaa;
+    background: #174674;
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    border-radius: 9px;
+    position: relative;
+    top: -20px;
+}
+
+.nav_li {
+    font:22px 'Georgia', sans-serif;
+    color: #fff;
+    display: inline-block;
+    margin-left: 29px;
+    margin-top: 15px;
+    cursor: pointer;
+/*    border-right: 1px solid #0e3b67;*/
+}
+
+.nav_li a {
+    font:22px 'Georgia', sans-serif;
+    color: #fff;
+}
+
+.nav_li a:hover {
+    color: #eecd89;
+    text-decoration: none;
+}
+
+
+/*
+MAIN*/
+
+/*>>>>>>>>>>>>>>>>>>>>>MAIN_CONTENT>>>>>>>>>>>>>>>>>>>*/
+
+
+main {
+    width: 950px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.main_content {
+    width: 550px;
+/*    border:1px solid pink;*/
+    display: inline-block;
+    vertical-align: top;
+    background: white;
+    z-index: 4;
+    position: relative;
+}
+
+.stamp_screen {
+    position: relative;
+    /*width: 445px;*/
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.subhead {
+    font:19px Arial, sans-serif;
+    text-align: center;
+}
+
+.main_h1 {
+    font:25px Arial, sans-serif;
+    text-align: center;
+}
+
+.casual_paragparh {
+    margin-left: 10px;
+    margin-right: 10px;
+    text-indent: 1.5em;
+}
+
+.casual_list {
+    list-style-type: square;
+    margin-left: 45px;
+}
+
+
+
+/*
+ASIDE LEFT*/
+
+.left_ {
+    width: 148px;
+    display: inline-block;
+}
+
+.ul_left_nav:before {
+    content: '';
+    display: block;
+    position: absolute;
+    background: url('../img/pic-left-top-menu-left.png') 0 0 no-repeat;
+    width: 10px;
+    height: 95px;
+    top: 0;
+}
+
+.left_nav {
+    display: block;
+    margin-left: 25px;
+    margin-top: 13px;
+/*    padding-top: 13px;
+    padding-bottom: 5px;*/
+    position: relative;
+    top: -10px;
+}
+
+.left_nav a {
+    font:bold 15px 'Georgia', sans-serif;
+    display: block;
+    text-decoration: underline;
+    position: relative;
+    padding-top: 7px;
+    padding-left: 8px;
+
+    /*FOR HOVER STATE*/
+  /*  background: #d09327;*/
+/*    width: 145px;*/
+    min-height: 35px;
+    color: #194876;
+    min-width:140px;
+
+    left: -15px;
+
+}
+
+.left_nav_inner a {
+    -webkit-box-shadow: 0 0 27px #ffc03c;
+    -moz-box-shadow: 0 0 27px #ffc03c;
+    box-shadow: 0 0 27px #ffc03c;
+    background: linear-gradient(to top, #d69a31, #d79a30, #e0a945, #e9b756, #f1c064, #f3c266);
+}
+
+
+
+.left_nav a:hover {
+    background: linear-gradient(to top, #d69a31, #d79a30, #e0a945, #e9b756, #f1c064, #f3c266);
+/*    width: 145px;
+    height: 35px;*/
+}
+
+
+
+
+
+
+
+
+/*
+ASIDE RIGHT*/
+
+.right_ {
+    width: 230px;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 5px;
+}
+
+.how_to_order {
+    background: url('../img/rep-edit-title.jpg') 0 0 repeat;
+    width: 201px;
+    height: 50px;
+    border:1px solid #e7bb65;
+    -webkit-box-shadow: 1px 1px 2px #bbb4b2;
+    -moz-box-shadow: 1px 1px 2px #bbb4b2;
+    box-shadow: 1px 1px 2px #bbb4b2;
+    font:italic 25px 'Georgia', sans-serif;
+    color: #282828;
+    position: relative;
+    padding-top: 5px;
+    padding-left: 5px;
+    margin-top: 0;
+}
+
+.simple  {
+    font:bold 15px Arial, sans-serif;
+    text-align: center;
+}
+
+.left_bar {
+    padding-left: 12px;
+    margin-top: 22px;
+    padding-bottom: 24px;
+    border-bottom:2px solid black;
+}
+
+.left_bar li {
+list-style: disc;
+    margin-top: 10px;
+}
+
+.red:first-letter {
+    color:red;
+}
+
+.red {
+    color:red;
+}
+
+.pb {
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+    width: 136px;
+    height: 49px;
+    display: block;
+    margin-top: 12px;
+    margin-bottom: -12px;
+    cursor: pointer;
+}
+
+.l_b li {
+    list-style-type: decimal;
+}
+
+.casual1 {
+/*    margin-top: 35px;*/
+/*    padding-top:15px;*/
+    margin-top: -15px;
+}
+
+.casual {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.casual2 {
+    border-bottom:2px solid black;
+    padding-bottom: 15px;
+}
+
+.l_b_2 {
+    border-bottom: none;
+    padding-bottom: 2px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+/////FOOTER//////*/
+
+footer {
+    height: 54px;
+    width: 950px;
+    margin: 70px auto;
+    background: #164573;
+}
+
+.last_words {
+    display: block;
+    position: relative;
+    left: 0;
+    top: 30%;
+    right: 0;
+    bottom: 0;
+    margin:auto;
+    text-align: center;
+    font:15px Arial, sans-serif;
+    color: #fff;
+}
+
+
+
+
+/*
+REQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQ*/
+
+.casualh2 {
+    text-align: center;
+}
+
+.simple_ul li {
+    list-style: circle;
+    margin-top: 7px;
+    position: relative;
+    margin-left: 25px;
+}
+
+.simple_ul  {
+    list-style: circle;
+    margin-top: 25px;
+/*    padding-left: 25px;*/
+}
+
+.mt {
+    margin-top: 33px;
+}
+
+.green {
+    color:#53931a;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+/*
+>>>>>>>>>>>>>>>>>>>>>>OTTISK>>>>>>>>>>>>>>>>>*/
+
+h6 {
+    text-align: center;
+    font:21px Arial, sans-serif;
+    margin-top: 12px;
+}
+
+
+/*
+FAX*/
+
+.align_left {
+    text-align: left;
+}
+
+.how_to_order1 {
+    background: url('../img/rep-edit-title.jpg') 0 0 repeat;
+    width: 100%;
+ text-align:center;
+    border:1px solid #e7bb65;
+    -webkit-box-shadow: 1px 1px 2px #bbb4b2;
+    -moz-box-shadow: 1px 1px 2px #bbb4b2;
+    box-shadow: 1px 1px 2px #bbb4b2;
+    font:italic 25px 'Georgia', sans-serif;
+    color: #282828;
+    position: relative;
+    padding-top: 5px;
+    padding-left: 5px;
+    margin-top: 0;
+}
+
+.go_left {
+    position: relative;
+    left: 20px;
+    margin-left: 20px;
+    border-bottom:transparent;
+}
+
+/*
+PRICE*/
+
+.nav_li_selected a {
+    color: #eecd89;
+}
+
+.mt_plus {
+    position: relative;
+    margin: 25px auto;
+/*    margin-left: 55px;*/
+}
+
+.w550 {
+    width: 500px;
+}
+
+td, th, thead {
+    text-align: center;
+}
+
+.left_nav_inner a {
+    padding-right: -15px;
+    margin-right: -15px;
+    right: -20px;
+    z-index: 1;
+    width:10px;
+}
+
+.a_special {
+    width: 100px;
+}
+
+
+/*
+CATALOG*/
+
+.up {
+    padding: 8px;
+    background: #edc983;
+    font:bold 14px Arial, sans-serif;
+float:right;
+}
+
+/*
+DELIVERY*/
+
+.ml15 {
+    margin-left: 15px;
+}
+
+/*
+contacts*/
+
+#map {
+    width: 550px;
+    height: 450px;
+}
+
+.p_min {
+    font:14px Arial, sans-serif;
+    text-align: center;
+    width: 550px;
+    margin: 0 auto;
+    color: black;
+    margin-top: -25px;
+    margin-bottom: 10px;
+    color: red;
+}
+
+
+/*
+TABLE*/
+
+thead {
+    background: darkgrey;
+}
+td, thead {
+    border:1px solid black;
+}
